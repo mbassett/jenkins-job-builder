@@ -2389,7 +2389,7 @@ def version_number(parser, xml_parent, data):
         # option, xml name, default value
         ("variable-name", 'environmentVariableName', None),
         ("format-string", 'versionNumberString', None),
-        ("prefix-variable", 'environmentPrefixVariable', None),
+        ("prefix-variable", 'environmentPrefixVariable', ''),
         ("skip-failed-builds", 'skipFailedBuilds', False),
         ("display-name", 'useAsBuildDisplayName', False),
         ("start-date", 'projectStartDate', '1970-1-1 00:00:00.0 UTC'),
